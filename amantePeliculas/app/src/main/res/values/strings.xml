@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">amantePeliculas</string>
+    <string name="titulo_pelicula">Hulk</string>
+    <string name="rating">10/10</string>
+    <string name="reviews">100mil</string>
+    <string name="Genero">Género</string>
+    <string name="Accion">Acción</string>
+    <string name="Drama">Drama</string>
+    <string name="Fantasia">Fantasía</string>
+    <string name="Ciencia_ficcion">Ciencia Ficción</string>
+    <string name="descripcion">La historia sigue al investigador de genética Bruce Banner, quien, tras un accidente en su laboratorio que lo expone a radiación gamma, se transforma en un monstruo verde furioso, perseguido por el ejército y enfrentado a su propio pasado.</string>
+</resources>
