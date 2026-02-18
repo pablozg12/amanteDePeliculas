@@ -9,4 +9,6 @@
     <string name="Fantasia">Fantasía</string>
     <string name="Ciencia_ficcion">Ciencia Ficción</string>
     <string name="descripcion">La historia sigue al investigador de genética Bruce Banner, quien, tras un accidente en su laboratorio que lo expone a radiación gamma, se transforma en un monstruo verde furioso, perseguido por el ejército y enfrentado a su propio pasado.</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="Descripcion_img">Palomita feliz</string>
 </resources>
