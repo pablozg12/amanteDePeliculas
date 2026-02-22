@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginBottom="20dp"
+        android:contentDescription="@string/descripcionFondo"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/txtTitulo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,6 +29,7 @@
         android:layout_height="165dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="100dp"
+        android:contentDescription="@string/descripcionLogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.009"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,20 +54,25 @@
         android:id="@+id/imgDescargar"
         android:layout_width="30dp"
         android:layout_height="23dp"
+        android:layout_marginTop="29dp"
         android:layout_marginEnd="20dp"
+        android:contentDescription="@string/descripcionDescarga"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imgLogo"
-        app:srcCompat="@drawable/descarga"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imgFondo"
+        app:srcCompat="@drawable/descarga" />
 
     <ImageView
         android:id="@+id/imgEstrella"
         android:layout_width="52dp"
         android:layout_height="58dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FBFBFB"
+        android:contentDescription="@string/descripcionEstrella"
         app:layout_constraintStart_toStartOf="@+id/txtTitulo"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@drawable/estrella" />
 
     <TextView
         android:id="@+id/txtReviews"
@@ -82,19 +89,18 @@
 
     <TextView
         android:id="@+id/txtRating"
-        android:layout_width="59dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="204dp"
+        android:contentDescription="@string/descripcionRatinfNumeros"
         android:fontFamily="sans-serif-black"
         android:text="@string/rating"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/imgEstrella"
-        app:layout_constraintEnd_toStartOf="@+id/imgDescargar"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imgEstrella"
-        app:layout_constraintTop_toBottomOf="@+id/imgFondo"
-        app:layout_constraintVertical_bias="0.703" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
 
     <Button
         android:id="@+id/btnRentar"
@@ -102,8 +108,8 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#99793A"
-        android:text="Rentar"
+        android:backgroundTint="#756034"
+        android:text="@string/rentar"
         app:layout_constraintBottom_toTopOf="@+id/txtDescripcion"
         app:layout_constraintEnd_toStartOf="@+id/btnComprar"
         app:layout_constraintTop_toTopOf="parent"
@@ -172,8 +178,8 @@
         android:layout_height="49dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#FFC67C"
-        android:text="Comprar"
+        android:backgroundTint="#AB6209"
+        android:text="@string/comprar"
         app:layout_constraintBottom_toTopOf="@+id/txtDescripcion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imgFondo"
@@ -198,6 +204,7 @@
         android:layout_width="22dp"
         android:layout_height="21dp"
         android:layout_marginEnd="10dp"
+        android:contentDescription="@string/descripcionMeGusta"
         app:layout_constraintEnd_toStartOf="@+id/imgCorazon"
         app:layout_constraintTop_toBottomOf="@+id/txtDescripcion"
         app:srcCompat="@drawable/megusta" />
@@ -207,6 +214,7 @@
         android:layout_width="31dp"
         android:layout_height="18dp"
         android:layout_marginEnd="20dp"
+        android:contentDescription="@string/descripcionCorazon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtDescripcion"
         app:srcCompat="@drawable/corazon" />

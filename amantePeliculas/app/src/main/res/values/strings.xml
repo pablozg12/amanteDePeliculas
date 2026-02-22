@@ -8,7 +8,21 @@
     <string name="Drama">Drama</string>
     <string name="Fantasia">Fantasía</string>
     <string name="Ciencia_ficcion">Ciencia Ficción</string>
-    <string name="descripcion">La historia sigue al investigador de genética Bruce Banner, quien, tras un accidente en su laboratorio que lo expone a radiación gamma, se transforma en un monstruo verde furioso, perseguido por el ejército y enfrentado a su propio pasado.</string>
+    <string name="descripcion">Un accidente gamma convierte a Bruce Banner en el poderoso y furioso Hulk.</string>
     <string name="iniciar_sesion">Iniciar Sesión</string>
     <string name="Descripcion_img">Palomita feliz</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="username">Username</string>
+    <string name="contraseniaOlvidada">¿Olvidaste tu contraseña?</string>
+    <string name="rentar">Rentar</string>
+    <string name="comprar">Comprar</string>
+    <string name="descripcionFondo">Hulk tirando una piedra a helicoptero</string>
+    <string name="descripcionLogo">Pelicula de hulk de 2003</string>
+    <string name="descripcionEstrella">Estrella que simboliza el rating de la pelicula</string>
+    <string name="descripcionMeGusta">Opcion de darle like a la pelicula</string>
+    <string name="descripcionDescarga">Opcion de descargar pelicula</string>
+    <string name="descripcionCorazon">Opcion para agregar a favoritos a la pelicula</string>
+    <string name="descripcionRatinfNumeros">Pelicula 10 de 10</string>
+    <string name="entrar">Entrar</string>
+    <string name="password">Password</string>
 </resources>

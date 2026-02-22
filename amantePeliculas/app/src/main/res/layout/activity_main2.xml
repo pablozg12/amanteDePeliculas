@@ -25,19 +25,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="112dp"
-        android:layout_marginBottom="308dp"
         android:text="@string/iniciar_sesion"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/txtUsername"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:textAppearance="@style/titles" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918"
+        android:textAppearance="@style/titles" />
 
     <EditText
         android:id="@+id/txtUsername"
         android:layout_width="336dp"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:layout_marginEnd="36dp"
-        android:layout_marginBottom="248dp"
+        android:layout_marginBottom="236dp"
+        android:autofillHints="username"
         android:ems="10"
+        android:hint="@string/username"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -45,11 +48,34 @@
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="336dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="208dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="176dp"
+        android:autofillHints="password"
         android:ems="10"
+        android:hint="@string/password"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#A24C2C"
+        android:text="@string/entrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txtContraseniaOlvidada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="124dp"
+        android:text="@string/contraseniaOlvidada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEntrar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
